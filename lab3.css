@@ -10,13 +10,15 @@ h1 {
   }
 
 h2 {
-  color:#39FF14
+  color:#39FF14;
 }
 
 h3 {
-  color: hsl(342, 100%, 88%)
+  color: hsl(342, 100%, 88%);
+  background-color: color(display-p3 0.6 0.6 0 / .3);
 }
 
 p {
   text-decoration-line: overline underline;
+  background-color: color-mix(#39FF14, #eca1d7);
 }
