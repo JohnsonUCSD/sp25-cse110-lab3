@@ -8,3 +8,11 @@ body {
 h1 {
     color: navy;
   }
+
+h2 {
+  color:#39FF14
+}
+
+p {
+  text-decoration-line: overline underline;
+}
