@@ -1,3 +1,10 @@
+/* write down comments to make your css easier to read */
+/*
 body {
-    color: rgb(58 58 58);
+    background-color: rgb(54, 52, 52);
+  }
+*/
+
+h1 {
+    color: navy;
   }
