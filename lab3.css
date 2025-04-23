@@ -37,7 +37,7 @@ h2 {
 
 h3 {
   color: hsl(342, 100%, 88%);
-  background-color: color(display-p3 0.6 0.6 0 / .3);
+  background-color: color(srgb 0 0 1);
   margin: auto
 }
 
