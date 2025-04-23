@@ -43,7 +43,7 @@ h3 {
 
 p {
   text-decoration-line: overline underline;
-  background-color: color-mix(#39FF14, #eca1d7);
+  background-color: color-mix(in srgb, #39FF14 50%, #eca1d7 50%);
   padding: 2% 2% 2% 2%;
   display: inline-block;
 }
