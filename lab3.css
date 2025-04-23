@@ -1,8 +1,9 @@
-/* write down comments to make your css easier to read */
-
+:root {
+  --main-color: rgb(54, 52, 52);
+}
 
 body {
-    background-color: rgb(54, 52, 52);
+    background-color: var(--main-color,#0e2b3f);
   }
 
 h1 {
@@ -14,14 +15,35 @@ h1 {
 
 h2 {
   color:#39FF14;
+  margin: 30% 20% 20% 30%;
+  border-style: solid;
+  border-color: #ee0000;
+  border-width: 5px;
+  border-radius: 10px;
 }
 
 h3 {
   color: hsl(342, 100%, 88%);
   background-color: color(display-p3 0.6 0.6 0 / .3);
+  margin: auto
 }
 
 p {
   text-decoration-line: overline underline;
   background-color: color-mix(#39FF14, #eca1d7);
+  padding: 20% 20% 20% 20%;
 }
+
+li {
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+
