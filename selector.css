@@ -1,0 +1,74 @@
+/* Class Selector */
+.meetingcontent{
+    color: #3c1547
+}
+
+/* ID Selector */
+#meeting-title {
+    text-decoration: underline;
+}
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+/* Element Selector */
+p {
+    line-height: 1.6;
+}
+
+/* Attribute Selector */
+input[type="checkbox"] {
+    accent-color: red;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+    color: green;
+}
+
+/* Selector List */
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Combinators */
+nav a {
+    text-transform: uppercase;
+}
+
+form > fieldset {
+    border: 2px solid navy;
+}
+
+h3 ~ ul {
+    font-style: italic;
+}
+
+h2 + main {
+    border-top: 2px dashed gray;
+}
+
+section.meetingcontent {
+    padding: 30px;
+}
+
+/* New Selectors */
+section:has(ul) {
+    border-left: 5px solid blue;
+    padding-left: 10px;
+}
+
+nav {
+    a {
+      color: black;
+    }
+  
+    a:hover {
+      color: orange;
+    }
+  
+}
